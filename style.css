@@ -1,0 +1,259 @@
+.bcabecalho{
+    background-color: #E8742C;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+body{
+    background-color: black;
+}
+
+
+#pesquiso{
+    width: 500px;
+    height: 25px;
+    background-color: #E8742C;
+    border: 0px;
+    outline: none;
+    color: white;
+
+}
+
+#bpesquisa{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.menu{
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+#fav{
+    margin-left: 20px;
+}
+
+#login{
+    margin-left: 20px;
+}
+
+.carrinho{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#banner1{
+    margin-top: 10px;
+}
+
+#camisa1one{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+#camisa2one{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#camisa3one{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#camisa4one{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+
+.produtos{
+    object-fit: cover;
+    text-align: center;
+    
+}
+
+#catalogoOne{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.anime{
+    text-align: center;
+    font-size: .5625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-weight: lighter;
+}
+.titulop{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.externo{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.preco{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.parcelamento{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.avistapix{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valorp{
+    color: #E8742C;
+    font-weight: bold;
+}
+
+.span{
+    color: #E8742C;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: #E8742C;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    padding: 10px;
+    
+}
+.titulo_footer{
+    color: white;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista_footer{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    color: white;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desliga{
+    display: none;
+}
+
+
+.fav--click{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 210px;
+}
+
+#roupa1one{
+    position: relative;
+    
+}
+
+.roupa1one{
+    text-align: center;
+    
+}
+
+.roupa2one{
+    text-align: center;
+
+}
+
+.roupa3one{
+    text-align: center;
+    
+}
+
+.roupa4one{
+    text-align: center;
+   
+}
+
+.roupa1star{
+    text-align: center;
+
+}
+
+.roupa2star{
+    text-align: center;
+
+}
+
+.roupa3star{
+    text-align: center;
+}
+
+.roupa4star{
+    text-align: center;
+}
+
+/* Adicione animações de fade para os elementos do catálogo */
+.catalogo-item {
+    transition: opacity 0.1s ease-in-out;
+}
+
+/* Defina a opacidade inicial como 1 para garantir que a imagem seja visível */
+.catalogo-item img {
+    opacity: 1;
+}
+
+#teste{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
